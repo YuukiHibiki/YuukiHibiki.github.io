@@ -51,10 +51,10 @@ export default defineConfig({
             items: [
                 { text: 'Kubernetes集群部署', link: '/linux/kubernetes/kubernetes-1.28.0-install.md' },
                 // { },
-                ],
-                
-        ],
-      },
-    ],
-  },
+            ]
+          }    
+        ]
+      }
+    ]
+  }
 });
