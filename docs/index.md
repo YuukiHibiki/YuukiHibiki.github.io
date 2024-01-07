@@ -4,17 +4,17 @@ layout: home
 
 hero:
 
-  name: YuukiHibiki
+  name: YuukiHibiki Blog
 
-  text: Vite & Vue powered static site generator.
+  text: Github Pages based on vitepress
 
-  tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
+  tagline: The technical knowledge in the document mainly comes from the internet, thanks to them. Most of the content has been deployed and practiced.
 
   actions:
 
     - theme: brand
 
-      text: Get Started
+      text: Access
 
       link: /example
 
