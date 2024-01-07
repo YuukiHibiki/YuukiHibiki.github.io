@@ -1,4 +1,4 @@
-### 1. 部署Tailscale
+## 1. 部署Tailscale
 
 tun(synology)
 
@@ -43,7 +43,7 @@ services:
 tailscale up --advertise-routes=<node-subnet> [--accept-routes]
 ```
 
-### 2. 在服务器上部署Derper
+## 2. 在服务器上部署Derper
 
 [参考文档](https://tailscale.com/kb/1118/custom-derp-servers/)
 
@@ -68,9 +68,9 @@ services:
     restart: unless-stopped
 ```
 
-### 3. 部署Headscale（可选）
+## 3. 部署Headscale（可选）
 
-#### 部署服务
+### 部署服务
 
 基本准备
 
@@ -108,7 +108,7 @@ services:
     restart: unless-stopped
 ```
 
-#### 组建网络
+### 组建网络
 
 在headscale上创建名称空间（仅名称空间内注册节点可互相连接，具有隔离性）
 `headscale namespaces create <namespace>`

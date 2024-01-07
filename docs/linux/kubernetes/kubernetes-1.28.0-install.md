@@ -1,6 +1,6 @@
 部分CentOS系统需要升级内核
 
-### 1. 基础环境准备
+## 1. 基础环境准备
 
 所有服务器均需进行
 
@@ -56,7 +56,7 @@ yum install kube{rnetes-cni,adm,let,ctl}
 systemctl enable --now docker cri-docker kubelet
 ```
 
-### 2. 初始化
+## 2. 初始化
 
 选择一个服务器作为第一个主节点，此步骤只在此节点上进行
 
@@ -98,7 +98,7 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
-### 3. 加入节点
+## 3. 加入节点
 
 ```shell
 #在主节点上准备好所需应用镜像
@@ -115,7 +115,7 @@ docker load -i kubernetes-img.tar.gz
 #等待本节点进入Ready、kube-flannel名称空间中的kube-flannel进入Running后，加入完成
 ```
 
-### 4. 可选修改
+## 4. 可选修改
 
 ```shell
 #kubelet数据目录修改
