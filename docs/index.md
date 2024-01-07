@@ -20,7 +20,7 @@ hero:
 
     - theme: alt
 
-      text: View on GitHub
+      text: View vitepress on GitHub
 
       link: https://github.com/vuejs/vitepress
 ---

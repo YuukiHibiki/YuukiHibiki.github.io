@@ -8,11 +8,11 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Example', link: '/example' },
-      {
-        text: 'Kubernetes',
-        items: [{ text: 'Tailscale', link: '/kubernetes/kubernetes' }],
-      },
+      // { text: 'Example', link: '/example' },
+      // {
+      //   text: 'Kubernetes',
+      //   items: [{ text: 'Tailscale', link: '/kubernetes/kubernetes' }],
+      // },
 
       // {
       //   text: 'Dropdown Menu',
