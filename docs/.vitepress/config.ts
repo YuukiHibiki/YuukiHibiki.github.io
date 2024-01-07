@@ -28,27 +28,31 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Guide',
+        text: 'NAS',
         items: [
-          { text: 'Example', link: '/example' },
           {
-            text: 'Kubernetes',
+            text: 'VLAN',
             collapsed: true,
-            items: [{ text: 'Tailscale', link: '/kubernetes/kubernetes' }],
+            items: [
+                { text: 'Tailscale', link: '/nas/tailscale' },
+                // { },
+            ],
           },
           // ...
         ],
       },
       {
-        text: 'Guide2',
+        text: 'Linux',
         items: [
           { text: 'Example', link: '/example' },
-          {
+          { 
             text: 'Kubernetes',
             collapsed: true,
-            items: [{ text: 'Tailscale', link: '/kubernetes/kubernetes' }],
-          },
-          // ...
+            items: [
+                { text: 'Kubernetes集群部署', link: '/linux/kubernetes/kubernetes-1.28.0-install.md' },
+                // { },
+                ],
+                
         ],
       },
     ],
