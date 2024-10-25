@@ -120,3 +120,21 @@
 |【命运-停驻之夜】新星|日本|游戏|视觉小说|TYPE-MOON|2007|4|春|完成|2018|9.5|||||
 
 ‍
+
+<style>
+  .custom-font-size main.main {
+    font-size: 10px; /* 设置此页面的全局字体大小 */
+  }
+  .full-width main.main {
+    width: 100vw; /* 视口宽度 */
+    margin: 0 auto;
+  }
+</style>
+
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  document.body.classList.add('full-width')
+})
+</script>

@@ -191,6 +191,9 @@
 
 
 <style>
+  .custom-font-size main.main {
+    font-size: 10px; /* 设置此页面的全局字体大小 */
+  }
   .full-width main.main {
     width: 100vw; /* 视口宽度 */
     margin: 0 auto;
