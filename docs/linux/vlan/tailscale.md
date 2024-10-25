@@ -45,10 +45,9 @@ tailscale up --advertise-routes=<node-subnet> [--accept-routes]
 
 ## 2. 在服务器上部署Derper
 
-[参考文档](https://tailscale.com/kb/1118/custom-derp-servers/)
+[参考文档](https://tailscale.com/kb/1118/custom-derp-servers/)  
 
 访问derp服务出现页面代表部署成功
-
 ```yaml
 version: "3"
 services:
@@ -110,11 +109,10 @@ services:
 
 ### 组建网络
 
-在headscale上创建名称空间（仅名称空间内注册节点可互相连接，具有隔离性）
+在headscale上创建名称空间（仅名称空间内注册节点可互相连接，具有隔离性）  
 `headscale namespaces create <namespace>`
 
 注册到Headscale
-
 ```shell
 #client
 #注册页面复制命令到headscale执行

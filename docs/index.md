@@ -14,33 +14,24 @@ hero:
       link: https://vitepress.dev/
 ---
 
-<style scoped>
-.container {
-  display: flex;
-  position: relative;
-  margin: 0 auto;
-  padding: 0 24px;
-  /**
-   * same as VPHero.vue
-   * https://github.com/vuejs/vitepress/blob/v1.0.0-beta.5/src/client/theme-default/components/VPHero.vue#L83
-   */
-  max-width: 1280px;
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(44px);
 }
 
 @media (min-width: 640px) {
-  .container {
-    padding-inline: 48px;
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
   }
 }
 
 @media (min-width: 960px) {
-  .container {
-    padding-inline: 64px;
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
   }
-}
-
-
-.contributors-avatar {
-  width: 600px;
 }
 </style>
