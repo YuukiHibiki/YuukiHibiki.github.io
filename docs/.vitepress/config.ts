@@ -45,7 +45,7 @@ export default defineConfig({
         text: '图书馆',
         items: [
           { text: '游戏', link: '/library/game' },
-          { text: '书籍', link: '/library/anime'}
+          { text: '动画', link: '/library/anime'}
         ]
 
       },
