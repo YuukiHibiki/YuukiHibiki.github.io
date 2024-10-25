@@ -1,5 +1,0 @@
-.VPSidebar {
-    width: auto; /* 根据内容自动调整宽度 */
-    min-width: 180px; /* 设置最小宽度，防止内容溢出 */
-    max-width: 280px; /* 可选：限制最大宽度 */
-}
