@@ -1,26 +1,14 @@
 .library1-layout {
-  ///* 全局字体大小设置 */
-  //.custom-font-size main.main {
-  //  font-size: 10px;
-  //}
-  //
-  /* 全宽布局设置 */
-  .full-width main.main {
-    width: 100vw;
-    margin: 0 auto;
+  /* 自定义页面最大宽度 */
+  --vp-layout-max-width: 3000px;
+  /* 覆盖默认容器宽度 */
+  .container {
+    max-width: var(--vp-layout-max-width) !important;
   }
 
-  ///* 自定义页面最大宽度 */
-  //--vp-layout-max-width: 1660px;
-
-  ///* 覆盖默认容器宽度 */
-  //.container {
-  //  max-width: var(--vp-layout-max-width) !important;
-  //}
-
   /* 确保内容容器自适应宽度 */
-  //.content-container,
-  //.content {
-  //  max-width: 100% !important;
-  //}
+  .content-container,
+  .content {
+    max-width: 100% !important;
+  }
 }
