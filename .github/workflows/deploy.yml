@@ -44,6 +44,9 @@ jobs:
       - name: Install dependencies
         run: npm ci 
         # npm ci / pnpm install / yarn install / bun install
+      - name: Install sass
+        uses: actions/configure-pages@v3
+        run: npm i -D sass
       - name: Build with VitePress
         run: |
           npm run docs:build
