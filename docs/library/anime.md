@@ -188,22 +188,3 @@
 |【新世纪福音战士】Season1 Part1|日本|TV动画|原创|GAINAX, 龙之子|1995|10|冬|完成|2018, 2024|8.5|||||
 
 ‍
-
-
-<style>
-  .custom-font-size main.main {
-    font-size: 10px; /* 设置此页面的全局字体大小 */
-  }
-  .full-width main.main {
-    width: 100vw; /* 视口宽度 */
-    margin: 0 auto;
-  }
-</style>
-
-<script setup>
-import { onMounted } from 'vue'
-
-onMounted(() => {
-  document.body.classList.add('full-width')
-})
-</script>
