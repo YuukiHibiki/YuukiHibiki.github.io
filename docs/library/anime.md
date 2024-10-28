@@ -190,4 +190,4 @@ layoutClass: library-layout
 |【新世纪福音战士】Season1 Part2|日本|TV动画|原创|GAINAX, 龙之子|1996|1|冬|完成|2018, 2024|9.5|||||
 |【新世纪福音战士】Season1 Part1|日本|TV动画|原创|GAINAX, 龙之子|1995|10|冬|完成|2018, 2024|8.5|||||
 
-<style src="./index.scss"></style>
+<style src="./index1.scss"></style>
