@@ -2,6 +2,8 @@
 layout: doc
 layoutClass: library-layout
 ---
+<style src="./index.scss"></style>
+
 # 动画
 
 |标题|国家|类别|类型|制作|年|月|季|完成|完成年份|评分|游戏时长|游戏奖杯|后续进行|备注|
@@ -189,5 +191,3 @@ layoutClass: library-layout
 |【月姬】真月谭月姬 Season1|日本|TV动画|游戏改编|J.C.STAFF|2003|10|秋|完成|2019|6|||||
 |【新世纪福音战士】Season1 Part2|日本|TV动画|原创|GAINAX, 龙之子|1996|1|冬|完成|2018, 2024|9.5|||||
 |【新世纪福音战士】Season1 Part1|日本|TV动画|原创|GAINAX, 龙之子|1995|10|冬|完成|2018, 2024|8.5|||||
-
-<style src="./index1.scss"></style>
