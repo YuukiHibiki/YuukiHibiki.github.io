@@ -1,3 +1,9 @@
+---
+layout: doc
+layoutClass: library-layout
+---
+
+<style src="./index.scss"></style>
 
 # 动画
 
