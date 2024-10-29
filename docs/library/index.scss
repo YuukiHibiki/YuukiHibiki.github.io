@@ -1,6 +1,9 @@
 .library-layout {
   /* 覆盖全局的 vp-layout-max-width（仅当前页面使用） */
-  --vp-layout-max-width: 100vw;
+  //--vp-layout-max-width: 100vw;
+  .container{
+    width: 100% !important;
+  }
 
   /* 修改 layout 最大宽度 */
   .container {
