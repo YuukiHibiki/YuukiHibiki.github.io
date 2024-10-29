@@ -2,18 +2,17 @@
 layout: home
 
 hero:
-  name: YuukiHibiki
-  text: 使用githubPages和VitePress构建
+  name: RustyOwl's Blog
+  text: build on vitepress
   tagline: 
   actions:
     - theme: brand
-      text: 进入站点
+      text: Access
       link: /about
     - theme: alt
-      text: 访问VitePress项目文档
+      text: vitepress homepage
       link: https://vitepress.dev/
 ---
-
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
