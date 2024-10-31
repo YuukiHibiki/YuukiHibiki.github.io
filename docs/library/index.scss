@@ -12,4 +12,30 @@
     width: 100% !important;
   }
   padding-right: 0 !important;
+  /* 表格样式 */
+  table {
+    width: 100%; /* 表格占满宽度 */
+    border-collapse: collapse; /* 去除单元格间隙 */
+    margin-top: 20px;
+  }
+
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd; /* 单元格边框 */
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2; /* 表头背景色 */
+    font-weight: bold;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* 隔行换色 */
+  }
+
+  /* 鼠标悬停效果 */
+  tr:hover {
+    background-color: #e6f7ff;
+  }
 }
