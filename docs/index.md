@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: RustyOwl's Blog
-  text: build on vitepress
+  name: Build on vitepress
+  text: 
   tagline: 
   actions:
     - theme: brand
