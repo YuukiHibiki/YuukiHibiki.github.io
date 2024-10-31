@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: false
 layoutClass: library-layout
 ---
 <style src="./index.scss"></style>
